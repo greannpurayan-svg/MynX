@@ -1,0 +1,29 @@
+name: mynx
+description: A new Flutter project
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.2.5
+  cloud_firestore: ^4.15.0
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.25.0
+  firebase_auth: ^4.17.0
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/phone.png
